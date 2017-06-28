@@ -1,0 +1,19 @@
+{
+    "name": "swinburne/laravel-session-started-event",
+    "description": "Fires an event when a session is started in Laravel for use in service providers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "benswinburne",
+            "email": "ben.swinburne@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "Swinburne\\LaravelSessionStarted\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
